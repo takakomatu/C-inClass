@@ -2,9 +2,9 @@
 //*                                                                                                   *
 //*   PROGRAM FILE NAME:  myProject2.cpp          ASSIGNMENT #: 2           					      *
 //*                                                                                           		  *
-//*   PROGRAM AUTHOR:   Takaaki Komatsu																  *
+//*   PROGRAM AUTHOR:   																  *
 //*                                                                                                   *
-//*   COURSE #:  CSC 24400 21								   DUE DATE:  Febuary 17, 2018 	 		  *
+//*   COURSE #:  								   DUE DATE:  Febuary 17, 2018 	 		  *
 //* 																								  *
 //*****************************************************************************************************
 
