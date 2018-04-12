@@ -1,0 +1,333 @@
+               Lawrence Miller       CSC 24400       Section 11
+                   Spring 2018       Assignment #3
+----------------------------------------------------------------------
+
+
+==============================================================================================
+                                          Account    Account
+   ID                  Name               Number     Balance
+--------  ------------------------------  -------  ------------
+    1001  John Doe                      
+                                           595521        500.00
+                                           693587       1575.25
+                                           348796      10978.23
+    9753  Jane Doe                      
+                                           289764       1000.00
+                                           158796      15987.96
+    8662  Richard Roe                   
+                                           878787     157000.00
+                                           987987      15463.78
+                                           454545        568.36
+    4700  Mark Moe                      
+                                           562562         55.00
+                                           478947      10587.35
+                                           987654        500.67
+                                           562561      17855.00
+                                           478946      40589.35
+                                           987653       5001.67
+    5953  Larry Loe                     
+                                           111111       9853.46
+                                           222222       8798.32
+                                           333333      10258.35
+                                           444444      57893.25
+                                           555555     478975.34
+                                           666666      99863.25
+                                           777777      56981.36
+    6268  William Forsyth               
+                                           888888      25000.00
+                                           999999      95000.00
+    7480  Rick Snyder                   
+                                           121212        973.18
+                                           232323       8989.33
+                                           343434       5896.35
+                                           454546       9875.99
+                                           565656      50000.00
+    2899  Vince Voe                     
+                                           123456     500000.00
+                                           123457     789443.25
+                                           123458     458963.56
+                                           123459      25000.00
+                                           123460      95000.00
+    3512  Joe Shmoe                     
+                                           987652      47581.10
+                                           987651        256.54
+
+==============================================================================================
+                                          Account    Account
+   ID                  Name               Number     Balance
+--------  ------------------------------  -------  ------------
+    1001                        John Doe   595521        500.00
+    1001                        John Doe   693587       1575.25
+    1001                        John Doe   348796      10978.23
+    9753                        Jane Doe   289764       1000.00
+    9753                        Jane Doe   158796      15987.96
+    8662                     Richard Roe   878787     157000.00
+    8662                     Richard Roe   987987      15463.78
+    8662                     Richard Roe   454545        568.36
+    4700                        Mark Moe   562562         55.00
+    4700                        Mark Moe   478947      10587.35
+    4700                        Mark Moe   987654        500.67
+    4700                        Mark Moe   562561      17855.00
+    4700                        Mark Moe   478946      40589.35
+    4700                        Mark Moe   987653       5001.67
+    5953                       Larry Loe   111111       9853.46
+    5953                       Larry Loe   222222       8798.32
+    5953                       Larry Loe   333333      10258.35
+    5953                       Larry Loe   444444      57893.25
+    5953                       Larry Loe   555555     478975.34
+    5953                       Larry Loe   666666      99863.25
+    5953                       Larry Loe   777777      56981.36
+    6268                 William Forsyth   888888      25000.00
+    6268                 William Forsyth   999999      95000.00
+    7480                     Rick Snyder   121212        973.18
+    7480                     Rick Snyder   232323       8989.33
+    7480                     Rick Snyder   343434       5896.35
+    7480                     Rick Snyder   454546       9875.99
+    7480                     Rick Snyder   565656      50000.00
+    2899                       Vince Voe   123456     500000.00
+    2899                       Vince Voe   123457     789443.25
+    2899                       Vince Voe   123458     458963.56
+    2899                       Vince Voe   123459      25000.00
+    2899                       Vince Voe   123460      95000.00
+    3512                       Joe Shmoe   987652      47581.10
+    3512                       Joe Shmoe   987651        256.54
+
+==============================================================================================
+                                          Account    Account
+   ID                  Name               Number     Balance
+--------  ------------------------------  -------  ------------
+    9753  Jane Doe                      
+                                           289764       1000.00
+                                           158796      15987.96
+    8662  Richard Roe                   
+                                           878787     157000.00
+                                           987987      15463.78
+                                           454545        568.36
+    7480  Rick Snyder                   
+                                           121212        973.18
+                                           232323       8989.33
+                                           343434       5896.35
+                                           454546       9875.99
+                                           565656      50000.00
+    6268  William Forsyth               
+                                           888888      25000.00
+                                           999999      95000.00
+    5953  Larry Loe                     
+                                           111111       9853.46
+                                           222222       8798.32
+                                           333333      10258.35
+                                           444444      57893.25
+                                           555555     478975.34
+                                           666666      99863.25
+                                           777777      56981.36
+    4700  Mark Moe                      
+                                           562562         55.00
+                                           478947      10587.35
+                                           987654        500.67
+                                           562561      17855.00
+                                           478946      40589.35
+                                           987653       5001.67
+    3512  Joe Shmoe                     
+                                           987652      47581.10
+                                           987651        256.54
+    2899  Vince Voe                     
+                                           123456     500000.00
+                                           123457     789443.25
+                                           123458     458963.56
+                                           123459      25000.00
+                                           123460      95000.00
+    1001  John Doe                      
+                                           595521        500.00
+                                           693587       1575.25
+                                           348796      10978.23
+
+==============================================================================================
+                                          Account    Account
+   ID                  Name               Number     Balance
+--------  ------------------------------  -------  ------------
+    9753  Jane Doe                      
+                                           289764       1000.00
+                                           158796      15987.96
+    3512  Joe Shmoe                     
+                                           987652      47581.10
+                                           987651        256.54
+    1001  John Doe                      
+                                           595521        500.00
+                                           693587       1575.25
+                                           348796      10978.23
+    5953  Larry Loe                     
+                                           111111       9853.46
+                                           222222       8798.32
+                                           333333      10258.35
+                                           444444      57893.25
+                                           555555     478975.34
+                                           666666      99863.25
+                                           777777      56981.36
+    4700  Mark Moe                      
+                                           562562         55.00
+                                           478947      10587.35
+                                           987654        500.67
+                                           562561      17855.00
+                                           478946      40589.35
+                                           987653       5001.67
+    8662  Richard Roe                   
+                                           878787     157000.00
+                                           987987      15463.78
+                                           454545        568.36
+    7480  Rick Snyder                   
+                                           121212        973.18
+                                           232323       8989.33
+                                           343434       5896.35
+                                           454546       9875.99
+                                           565656      50000.00
+    2899  Vince Voe                     
+                                           123456     500000.00
+                                           123457     789443.25
+                                           123458     458963.56
+                                           123459      25000.00
+                                           123460      95000.00
+    6268  William Forsyth               
+                                           888888      25000.00
+                                           999999      95000.00
+
+==============================================================================================
+
+Processing Transactions
+595521 500.00
+Account 595521 found - updating balance from 500.00 to 1000.00
+693587 1575.25
+Account 693587 found - updating balance from 1575.25 to 3150.50
+348796 10978.23
+Account 348796 found - updating balance from 10978.23 to 21956.46
+289764 1000.00
+Account 289764 found - updating balance from 1000.00 to 2000.00
+158796 15987.96
+Account 158796 found - updating balance from 15987.96 to 31975.92
+878787 157000.00
+Account 878787 found - updating balance from 157000.00 to 314000.00
+987987 15463.78
+Account 987987 found - updating balance from 15463.78 to 30927.56
+454545 568.36
+Account 454545 found - updating balance from 568.36 to 1136.72
+555550 35.00
+account number not found
+445544 95.00
+account number not found
+562562 55.00
+Account 562562 found - updating balance from 55.00 to 110.00
+478947 10587.35
+Account 478947 found - updating balance from 10587.35 to 21174.70
+987654 500.67
+Account 987654 found - updating balance from 500.67 to 1001.34
+562561 17855.00
+Account 562561 found - updating balance from 17855.00 to 35710.00
+478946 40589.35
+Account 478946 found - updating balance from 40589.35 to 81178.70
+987653 5001.67
+Account 987653 found - updating balance from 5001.67 to 10003.34
+111111 9853.46
+Account 111111 found - updating balance from 9853.46 to 19706.92
+222222 8798.32
+Account 222222 found - updating balance from 8798.32 to 17596.64
+333333 10258.35
+Account 333333 found - updating balance from 10258.35 to 20516.70
+444444 57893.25
+Account 444444 found - updating balance from 57893.25 to 115786.50
+555555 478975.34
+Account 555555 found - updating balance from 478975.34 to 957950.69
+666666 99863.25
+Account 666666 found - updating balance from 99863.25 to 199726.50
+777777 56981.36
+Account 777777 found - updating balance from 56981.36 to 113962.72
+888888 25000.00
+Account 888888 found - updating balance from 25000.00 to 50000.00
+999999 95000.00
+Account 999999 found - updating balance from 95000.00 to 190000.00
+121212 73.18
+Account 121212 found - updating balance from 973.18 to 1046.36
+232323 89.33
+Account 232323 found - updating balance from 8989.33 to 9078.66
+343434 56.35
+Account 343434 found - updating balance from 5896.35 to 5952.70
+454546 875.99
+Account 454546 found - updating balance from 9875.99 to 10751.98
+565656 50.00
+Account 565656 found - updating balance from 50000.00 to 50050.00
+123456 500.00
+Account 123456 found - updating balance from 500000.00 to 500500.00
+123456 -50.00
+Account 123456 found - updating balance from 500500.00 to 500450.00
+123457 -443.25
+Account 123457 found - updating balance from 789443.25 to 789000.00
+123457 43.25
+Account 123457 found - updating balance from 789000.00 to 789043.25
+123458 -63.55
+Account 123458 found - updating balance from 458963.56 to 458900.00
+123459 25.00
+Account 123459 found - updating balance from 25000.00 to 25025.00
+123459 125.00
+Account 123459 found - updating balance from 25025.00 to 25150.00
+123459 525.00
+Account 123459 found - updating balance from 25150.00 to 25675.00
+123459 -425.00
+Account 123459 found - updating balance from 25675.00 to 25250.00
+123459 -22.00
+Account 123459 found - updating balance from 25250.00 to 25228.00
+123459 725.00
+Account 123459 found - updating balance from 25228.00 to 25953.00
+123459 525.00
+Account 123459 found - updating balance from 25953.00 to 26478.00
+123459 -25.00
+Account 123459 found - updating balance from 26478.00 to 26453.00
+123460 50.00
+Account 123460 found - updating balance from 95000.00 to 95050.00
+123460 -5.50
+Account 123460 found - updating balance from 95050.00 to 95044.50
+987652 475.10
+Account 987652 found - updating balance from 47581.10 to 48056.20
+987651 5256.54
+Account 987651 found - updating balance from 256.54 to 5513.08
+
+==============================================================================================
+                                          Account    Account
+   ID                  Name               Number     Balance
+--------  ------------------------------  -------  ------------
+    9753                        Jane Doe   289764       2000.00
+    9753                        Jane Doe   158796      31975.92
+    3512                       Joe Shmoe   987652      48056.20
+    3512                       Joe Shmoe   987651       5513.08
+    1001                        John Doe   595521       1000.00
+    1001                        John Doe   693587       3150.50
+    1001                        John Doe   348796      21956.46
+    5953                       Larry Loe   111111      19706.92
+    5953                       Larry Loe   222222      17596.64
+    5953                       Larry Loe   333333      20516.70
+    5953                       Larry Loe   444444     115786.50
+    5953                       Larry Loe   555555     957950.69
+    5953                       Larry Loe   666666     199726.50
+    5953                       Larry Loe   777777     113962.72
+    4700                        Mark Moe   562562        110.00
+    4700                        Mark Moe   478947      21174.70
+    4700                        Mark Moe   987654       1001.34
+    4700                        Mark Moe   562561      35710.00
+    4700                        Mark Moe   478946      81178.70
+    4700                        Mark Moe   987653      10003.34
+    8662                     Richard Roe   878787     314000.00
+    8662                     Richard Roe   987987      30927.56
+    8662                     Richard Roe   454545       1136.72
+    7480                     Rick Snyder   121212       1046.36
+    7480                     Rick Snyder   232323       9078.66
+    7480                     Rick Snyder   343434       5952.70
+    7480                     Rick Snyder   454546      10751.98
+    7480                     Rick Snyder   565656      50050.00
+    2899                       Vince Voe   123456     500450.00
+    2899                       Vince Voe   123457     789043.25
+    2899                       Vince Voe   123458     458900.00
+    2899                       Vince Voe   123459      26453.00
+    2899                       Vince Voe   123460      95044.50
+    6268                 William Forsyth   888888      50000.00
+    6268                 William Forsyth   999999     190000.00
+
+---------------------------------- 
+|   END OF PROGRAM OUTPUT        | 
+---------------------------------- 

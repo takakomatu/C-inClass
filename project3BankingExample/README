@@ -1,0 +1,33 @@
+The problem with this program inserting ctrl-M after every string printed out 
+has been fixed.  It turns out that the folder in which the files were stored 
+is a shared folder between MS Windows 7 and Fedora Linux.  Since the files
+were stored in a folder, a windows format folder, the editor I used to create
+the data file inserted ctrl-M at the end of every line of the file (as marker 
+to indicate the next character starts on the next line).  This was done 
+behind the scene by the editor, inspite of the fact I was using editor in 
+Fedora Linux (which normally would have only put a '\n' at the end of each
+line - it ended up thinking I wanted the file in a "windows" format since it
+was being stored on a windows folder). Once I realized this was the problem, 
+I move the source code files and the two input files to a non-shared folder, 
+and stripped the ctrl-M's out fo the input file, the program ran correctly. 
+
+After fixing this issue, I finished debugging the code for read_transactions.
+The problem was that the variable amount was declared as:
+
+   int amount;
+
+instead of being declared as:
+
+   float amount; 
+
+which caused the extraction operator for the stream to fail to read past the
+decimal point of the first account balance in the file.
+
+After fixing these two issues, the code ran well.  I then added functions to 
+close all three input files as well as a function to deallocate all heap 
+memory at the end of the program.
+
+The last thing I did was to add extensive comments to the code.  The amount of
+comments provided may be overkill, but I wanted to clearly explain the purpose
+of every line of code.
+
